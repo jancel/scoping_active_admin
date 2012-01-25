@@ -1,0 +1,11 @@
+== Scoping Active Admin
+
+To install, clone this and run it with webrick if you please. 
+ It's got the sqlite database in there with a abase setup.
+
+Posts, scoped to admin user, belongs_to :category
+Categories, scoped to admin user, has_many :categories
+
+AdminUser, has_many :posts, has_many :categories
+
+I'd really like to know if this is the intended behavior.
