@@ -6,10 +6,10 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'activeadmin', :git => 'git://github.com/gregbell/active_admin.git'
+gem 'activeadmin', :path => '../active_admin'
 gem 'sass-rails',   '~> 3.1.5'
 gem 'meta_search', '>= 1.1.0.pre'
-
+gem 'ruby-debug19'
 
 
 # Gems used only for assets and not required
